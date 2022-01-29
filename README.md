@@ -1,4 +1,4 @@
-# WDB FA'21 Frontend Project - Cats in the Sky
+# WDB SP'22 Frontend Project - Duck Fashion SHow
 
 Welcome to WDB's frontend project for development branch applicants 👋
 
@@ -26,7 +26,7 @@ We'll be using Figma to relay how the final product should look and behave. The 
 
 If you are unable to use Figma or have errors dealing with it, we have attached some images of what the final product should look like in the figma-images folder.
 
-For this project, we're expecting you to use a frontend framework, including but not limited to: React.js, Angular.js, Vue.js. React is preferred. Which framework you use if up to your discretion and your choice will not impact our decision. If you haven't worked with these technologies or another popular frontend framework in the past, the student branch might be more fitting. If this is the case, email us at webatberkeley.org for next steps.
+For this project, we're expecting you to use a frontend framework, including but not limited to: React.js, Angular, Vue.js. React is preferred. The framework you use is up to your discretion and your choice will not impact our decision. If you haven't worked with these technologies or another popular frontend framework in the past, our "Introduction to Fullstack Development" DeCal might be more fitting for you. If this is the case, email us at webatberkeley@gmail.com for next steps.
 
 <br />
 
@@ -36,7 +36,7 @@ For this project, we're expecting you to use a frontend framework, including but
 
 ## The project
 
-This project will be creating a website for a company called Cats in the Sky, a cat foster home in an airplane! The website you make must be capable of dispalying a list of reviews from`Data.json`, and optionally, a list of album photos from a REST API (more details below). This project is meant to be on the lighter side.
+This project will be creating a website for a series C funded Duck Fashion Show, where ducks from all over the world travel to compete in categories like fluffiness, webbing thickness, and more! The website you make must be capable of displaying a list of scores from `Data.json`, and optionally, a list of album photos from a REST API (more details below). This project is meant to be on the lighter side.
 
 <br />
 
@@ -50,14 +50,14 @@ Please create a replica of the design provided (viewable through Figma or the im
 
 **Requirements:**
 
-- Use a navigation package or create an API to handle navigating to a listing - anything is fine as long as navigation isn't hard coded for each listing.
-- Your website does not need to be responsive, and it should be built for a laptop or a monitor.
+- Use a navigation package or create an API to handle navigating to pages and listings - anything is fine as long as navigation isn't hard coded for each page.
+- Your website does not need to be responsive, and it should be built for a laptop or generic monitor.
 - DO NOT manually input or display review data i.e. do not hard code anything.
-- DO NOT edit the `Data.json` in any way
+- DO NOT edit the `Data.json` file in any way
 
 **Additional Details:**
 
-- Feel free to use UI libraries (Bootstrap, Material Design, etc...), or any CSS pre-processors (SASS, LESS, etc...). If you do not know what these are, no worries! There is no penalty for not using these tools.
+- Feel free to use UI libraries (Bootstrap, Material Design, Chakra, etc...), or any CSS pre-processors (SASS, LESS, etc...). If you do not know what these are, no worries! There is no penalty for not using these tools.
 - Feel free to change around the file structure as much as you want.
 - Feel free to use any outside packages.
 - If you copy code from an outside source that's fine, but please include the source as a comment.
@@ -65,8 +65,8 @@ Please create a replica of the design provided (viewable through Figma or the im
 
 **Bonus Points:**
 
-- Write neat, modular code.
-- Write scalable code.
+- Neat, modular code.
+- Scalable code.
 - Commented code (not excessive).
 
 #### Home Page
@@ -76,7 +76,7 @@ Simple home page with some banner text
 Four simple cards with titles and images. The buttons should link to `google.com`
 
 #### Adoption
-Text on the left, dispaly reviews from `data.json` on the right. Note that these reviews are expandable, first each card should just show the title, on click it should expand to show the review body 
+Text on the left, display score explanations from `data.json` on the right. Note that these reviews are expandable, first each card should just show the title, on click it should expand to show the review body 
 
 #### Photo Album (Extra Credit)
 Fetch and display the first 24 photos from [this API endpoint](https://jsonplaceholder.typicode.com/photos). Feel free to use whatever library you'd like, however, you **must encapsulate all fetching logic in a custom hook**. While fetching, show some sort of loading state (this can be a spinner or pure text).
@@ -100,7 +100,7 @@ Take a look at the `submission.md` file before submitting. If you deviated from 
 
 To submit your project, please place your submission into a GitHub repo that is set to private. You will be submitting your code on [Gradescope](https://www.gradescope.com/). If you do not have a Gradescope account, please create one and if you are unable to create one, please email us immediately. The Gradescope course code is `YV5D4N`. You will see two different assignments: `Frontend Technical Project` and `Backend Techinical Project`. _Please only submit to Frontend Technical Project._ You can ignore Backend Technical Project.
 
-The technical project will be due at 8:00 am PT on Monday, Febuary 8th. We will be unable to respond to clarification emails sent in after 11:59 pm PST on Sunday, February 7th, so if you have any questions about the project, please let us know before then. 
+The technical project will be due at 11:59 pm PST on Wednesday, Febuary 2nd. We will be doing technical office hours in the days leading up to the deadline, so if you have any questions about the project, please ask there or reach out to us at webatberkeley@gmail.com. 
 
 <br />
 
@@ -112,7 +112,7 @@ The technical project will be due at 8:00 am PT on Monday, Febuary 8th. We will 
 
 ### **When is the assessment due?**
 
-Please submit your exercise by 8:00 am PT on Saturday, September 11th.
+Please submit your exercise by 11:59pm PST on Wednesday, Febuary 2nd.
 
 ### **Which browsers should I support?**
 
