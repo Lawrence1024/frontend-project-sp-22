@@ -1,4 +1,4 @@
-# WDB SP'22 Frontend Project - Duck Fashion SHow
+# WDB SP'22 Frontend Project - Duck Fashion Show
 
 Welcome to WDB's frontend project for development branch applicants 👋
 
