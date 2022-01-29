@@ -22,7 +22,7 @@ _Happy coding and good luck!_
 
 ## Setup
 
-We'll be using Figma to relay how the final product should look and behave. The Figma link can be found [here](https://www.figma.com/file/IitXUMe8ornWySzDUTSR6d/FA-21-Frontend-Project?node-id=0%3A1)
+We'll be using Figma to relay how the final product should look and behave. The Figma link can be found [here](https://www.figma.com/file/SILn3ZZ9NYpQTTyOlYdb4Q/%5BSP-'22-Frontend-Project%5D?node-id=0%3A1)
 
 If you are unable to use Figma or have errors dealing with it, we have attached some images of what the final product should look like in the figma-images folder.
 
@@ -36,7 +36,7 @@ For this project, we're expecting you to use a frontend framework, including but
 
 ## The project
 
-This project will be creating a website for a series C funded Duck Fashion Show, where ducks from all over the world travel to compete in categories like fluffiness, webbing thickness, and more! The website you make must be capable of displaying a list of scores from `Data.json`, and optionally, a list of album photos from a REST API (more details below). This project is meant to be on the lighter side.
+This project will be creating a website for a series C funded Duck Fashion Show, where ducks from all over the world travel to compete in categories like fluffiness, webbing thickness, swagger, and more! The website you make must be capable of displaying a list of scores from `Data.json`, and optionally, a list of album photos from a REST API (more details below). This project is meant to be on the lighter side.
 
 <br />
 
@@ -72,11 +72,11 @@ Please create a replica of the design provided (viewable through Figma or the im
 #### Home Page
 Simple home page with some banner text
 
-#### Bookings
-Four simple cards with titles and images. The buttons should link to `google.com`
+#### Voting
+Four simple cards with titles and images. The buttons should update the vote counts for each of the respective ducks, as an exercise in state management.
 
-#### Adoption
-Text on the left, display score explanations from `data.json` on the right. Note that these reviews are expandable, first each card should just show the title, on click it should expand to show the review body 
+#### Past Winners
+Text on the left, display score explanations from `data.json` on the right. Note that these cards are expandable, first each card should just show the name, year, and vote count, then clicking it should expand to show the outfit description.
 
 #### Photo Album (Extra Credit)
 Fetch and display the first 24 photos from [this API endpoint](https://jsonplaceholder.typicode.com/photos). Feel free to use whatever library you'd like, however, you **must encapsulate all fetching logic in a custom hook**. While fetching, show some sort of loading state (this can be a spinner or pure text).
