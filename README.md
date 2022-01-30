@@ -73,7 +73,7 @@ Please create a replica of the design provided (viewable through Figma or the im
 Simple home page with some banner text
 
 #### Voting
-Four simple cards with titles and images. The buttons should update the vote counts for each of the respective ducks, as an exercise in state management.
+Four simple cards with titles and images. The buttons should update the vote counts for each of the respective ducks, as an exercise in state management. You are NOT permitted to use external libraries (besides React, Vue, Angular, etc.) to implement voting.
 
 #### Past Winners
 Text on the left, display score explanations from `data.json` on the right. Note that these cards are expandable, first each card should just show the name, year, and vote count, then clicking it should expand to show the outfit description.
@@ -85,7 +85,7 @@ All images required to create the replica are provided in the img folder.
 
 **Notes**
 
-- If you're unsure whether you're allowed to use a certain tool, go for it - we truly don't care - in fact, usage of outside tools is reflective of what you might be doing as a WDB developer as we highly encourage microservice architectures and writing as little code as possible.
+- If you're unsure whether you're allowed to use a certain tool, go for it - we truly don't care - in fact, usage of outside tools is reflective of what you might be doing as a WDB developer as we highly encourage microservice architectures and writing as little code as possible. The only exception is voting, since we want to make sure you know how to do basic state management yourself without using an additiional tool.
 - If you are unsure about spacing, distances, etc... feel free to eyeball it. We will not be answering questions relating to the details of the design, and instead, use your discretion. We will be looking more for functionality than a pixel-perfect replica of the design.
 
 <br />
