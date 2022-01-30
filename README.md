@@ -58,6 +58,7 @@ Please create a replica of the design provided (viewable through Figma or the im
 **Additional Details:**
 
 - Feel free to use UI libraries (Bootstrap, Material Design, Chakra, etc...), or any CSS pre-processors (SASS, LESS, etc...). If you do not know what these are, no worries! There is no penalty for not using these tools.
+- You are not permitted to use an external library for voting – you must implement state management yourself.
 - Feel free to change around the file structure as much as you want.
 - Feel free to use any outside packages.
 - If you copy code from an outside source that's fine, but please include the source as a comment.
