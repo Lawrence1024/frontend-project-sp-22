@@ -1,5 +1,10 @@
 # WDB SP'22 Frontend Project - Duck Fashion Show
 
+## Clarifications
+- For the voting page, you do NOT need to worry about maintaining state when you navigate away from the page.
+
+## Introduction
+
 Welcome to WDB's frontend project for development branch applicants 👋
 
 Make sure you read these instructions carefully before you start. If you have any questions please reach out to webatberkeley@gmail.com.
